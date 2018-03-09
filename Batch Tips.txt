@@ -1,0 +1,34 @@
+color 
+> color [background][foreground]
+
+color codes:
+
+0 = black
+1 = blue
+2 = green
+3 = aqua
+4 = red
+5 = purple
+6 = yellow
+7 = white
+8 = grey
+9 = light blue
+a = light green
+b = light aqua
+c = light red
+d = light purple
+e = light yellow
+f = bright white
+
+if
+> if [NOT] ERRORLEVEL number command
+> if [NOT] string1==string2 command
+> if [NOT] EXIST filename command
+
+Comparitives:
+EQU - ==
+NEQ - !=
+LSS - <
+LEQ - <=
+GTR - >
+GEQ - >=
